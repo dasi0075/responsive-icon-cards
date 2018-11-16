@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -20,21 +19,23 @@ html {
 }
 
 img {
-  width: auto;
-  max-width: 20%;
-  display: block;
-  position: relative;
-}
-
-.card-img {
   margin-left: 7rem;
+  width: 50px;
+  max-width: auto;
+  display: block;
 }
 
-h1 {
+h2 {
   margin-bottom: 0;
 }
 
-p {
+ul li {
+  margin-top: 0;
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
   margin-top: 0;
 }
 
