@@ -39,6 +39,10 @@ ul {
   margin-top: 0;
 }
 
+ul h2 {
+  font-weight: 500;
+}
+
 .cards-body {
   display: inline-block;
 }
@@ -50,21 +54,23 @@ ul {
 @media only screen and (min-width: 25em) {
   html {
     line-height: 1.4;
+  }
 }
 
 @media only screen and (min-width: 38em) {
   html {
     line-height: 1.4;
-}
+  }
 }
 
 @media only screen and (min-width: 60em) {
   html {
     line-height: 1.3;
-}
+  }
 }
 
 @media only screen and (min-width: 90em) {
   html {
     line-height: 1.3;
+  }
 }
