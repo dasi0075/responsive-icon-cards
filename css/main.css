@@ -21,7 +21,7 @@ html {
 img {
   margin-left: 7rem;
   width: 50px;
-  max-width: auto;
+  max-width: 100%;
   display: block;
 }
 
@@ -67,5 +67,4 @@ ul {
 @media only screen and (min-width: 90em) {
   html {
     line-height: 1.3;
-}
 }
