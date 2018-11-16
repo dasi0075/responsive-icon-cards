@@ -40,7 +40,7 @@ ul {
 }
 
 .cards-body {
-
+  display: inline-block;
 }
 
 .cards {
