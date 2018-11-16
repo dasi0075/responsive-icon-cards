@@ -16,18 +16,40 @@ html {
 }
 
 .cards {
-
+  position: absolute;
 }
 
 img {
   width: auto;
-  max-width: 50%
+  max-width: 20%;
+  display: block;
+  position: relative;
 }
 
 .card-img {
-
+  margin-left: 7rem;
 }
 
 .cards-body {
+
+}
+
+.cards {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
 
 }
