@@ -64,12 +64,9 @@ h2 {
     margin: 0 0 1.3rem;
   }
 
-  .card-img {
-    position: inline-block;
-  }
-  .cards-body h2 {
+  .card-img .cards-body {
     display: inline-block;
-    position: absolute;
+    width: 50%;
   }
 }
 
@@ -83,10 +80,7 @@ h2 {
     margin: 0 0 1.4rem;
   }
 
-  .card-img {
-    display: inline-block;
-  }
-  h2  .card-body {
+  .card-img .card-body {
     display: inline-block;
     width: 50%;
     text-align: center;
