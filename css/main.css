@@ -41,6 +41,8 @@ ul {
 
 .card-img {
   width: 20%;
+  max-width: 100%;
+  margin-left: 7rem;
   display: block;
 }
 
@@ -61,11 +63,12 @@ ul {
   }
 
   .card-img {
-    width: 25%;
+    width: 20%;
+    margin-left: 0;
   }
 
   .card-body {
-    width: 70%;
+    width: 75%;
   }
 
 }
