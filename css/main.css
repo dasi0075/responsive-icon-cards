@@ -15,7 +15,7 @@ html {
 }
 
 .cards {
-  position: absolute;
+  list-style-type: none;
 }
 
 img {
@@ -65,11 +65,10 @@ h2 {
   }
 
   .card-img {
-    display: flex;
-    position: relative;
+    position: inline-block;
   }
   .cards-body h2 {
-    display: flex;
+    display: inline-block;
     position: absolute;
   }
 }
@@ -89,15 +88,14 @@ h2 {
   }
   h2  .card-body {
     display: inline-block;
-    width: 100%;
+    width: 50%;
     text-align: center;
-    float: right;
   }
 }
 
 @media only screen and (min-width: 60em) {
   html {
-    font-size: 120%;
+    font-size: 110%;
     line-height: 1.5;
   }
 
