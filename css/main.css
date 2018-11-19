@@ -19,9 +19,7 @@ html {
 }
 
 img {
-  margin-left: 7rem;
-  width: 50px;
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -44,12 +42,7 @@ h2 {
   font-weight: normal;
 }
 
-.cards-body {
-  display: inline-block;
-}
-
 .cards {
-  display: block;
   list-style-type: none;
   margin: 0 0 1.3rem;
 }
@@ -64,9 +57,9 @@ h2 {
     margin: 0 0 1.3rem;
   }
 
-  .card-img .cards-body {
+  .card-img, .card-body {
     display: inline-block;
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -80,10 +73,18 @@ h2 {
     margin: 0 0 1.4rem;
   }
 
-  .card-img .card-body {
+  .card-img, .card-body {
     display: inline-block;
     width: 50%;
     text-align: center;
+  }
+
+  .card-img {
+    width: 20%;
+  }
+
+  .card-body {
+    width: 80%;
   }
 }
 
