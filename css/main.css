@@ -14,13 +14,17 @@ html {
   line-height: 1.3;
 }
 
-h2 {
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+.card-body h2 {
   margin-bottom: 0;
   font-size: 1.5rem;
   font-weight: normal;
 }
 
-p {
+.card-body p {
   margin-top: 0;
 }
 
@@ -39,7 +43,7 @@ ul {
   margin: 0 0 1.3rem;
 }
 
-.card-img {
+.card-img img {
   width: 20%;
   max-width: 100%;
   margin-left: 7rem;
@@ -84,18 +88,27 @@ ul {
   }
 
   .card-img, .card-body {
-    display: inline-block;
+    display: block;
     width: 50%;
-    text-align: center;
+    text-align: left;
   }
 
   .card-img {
-    width: 20%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .card-body {
-    width: 80%;
+    width: 100%;
   }
+
+  .card {
+    display: inline-block;
+    width: 30%;
+  }
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -107,10 +120,12 @@ ul {
   .cards {
     margin: 0 0 1.5rem;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
   html {
     font-size: 130%;
   }
+
 }
